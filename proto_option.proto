@@ -23,6 +23,11 @@ extend google.protobuf.FileOptions {
 	NodeType OptionFileDefaultNode = 200003;
 }
 
+extend google.protobuf.ServiceOptions {
+	// 标记该服务是否是玩家相关服务（PlayerService）
+	bool OptionIsPlayerService = 400015;
+}
+
 //option id  要从50000开始 50000以内pb内部使用
 extend google.protobuf.MessageOptions {
 	optional uint32 OptionTableId			= 500000 ;	//表ID

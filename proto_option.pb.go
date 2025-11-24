@@ -209,17 +209,17 @@ var file_proto_option_proto_extTypes = []protoimpl.ExtensionInfo{
 	{
 		ExtendedType:  (*descriptorpb.ServiceOptions)(nil),
 		ExtensionType: (*bool)(nil),
-		Field:         400015,
+		Field:         400000,
 		Name:          "OptionIsPlayerService",
-		Tag:           "varint,400015,opt,name=OptionIsPlayerService",
+		Tag:           "varint,400000,opt,name=OptionIsPlayerService",
 		Filename:      "proto_option.proto",
 	},
 	{
 		ExtendedType:  (*descriptorpb.ServiceOptions)(nil),
 		ExtensionType: (*bool)(nil),
-		Field:         400016,
+		Field:         400001,
 		Name:          "OptionIsClientProtocolService",
-		Tag:           "varint,400016,opt,name=OptionIsClientProtocolService",
+		Tag:           "varint,400001,opt,name=OptionIsClientProtocolService",
 		Filename:      "proto_option.proto",
 	},
 	{
@@ -434,11 +434,11 @@ var (
 var (
 	// 标记该服务是否是玩家相关服务（PlayerService）
 	//
-	// optional bool OptionIsPlayerService = 400015;
+	// optional bool OptionIsPlayerService = 400000;
 	E_OptionIsPlayerService = &file_proto_option_proto_extTypes[1]
 	// 标记该服务是否是客户端协议服务（供客户端调用）
 	//
-	// optional bool OptionIsClientProtocolService = 400016;
+	// optional bool OptionIsClientProtocolService = 400001;
 	E_OptionIsClientProtocolService = &file_proto_option_proto_extTypes[2]
 )
 
@@ -528,8 +528,8 @@ const file_proto_option_proto_rawDesc = "" +
 	"\x11BS_RESULT_SUCCESS\x10\x01\x12\x14\n" +
 	"\x10BS_RESULT_FAILED\x10\x02:_\n" +
 	"\x15OptionFileDefaultNode\x12\x1c.google.protobuf.FileOptions\x18Ú\f \x01(\x0e2\t.NodeTypeR\x15OptionFileDefaultNode:W\n" +
-	"\x15OptionIsPlayerService\x12\x1f.google.protobuf.ServiceOptions\x18\x8f\xb5\x18 \x01(\bR\x15OptionIsPlayerService:g\n" +
-	"\x1dOptionIsClientProtocolService\x12\x1f.google.protobuf.ServiceOptions\x18\x90\xb5\x18 \x01(\bR\x1dOptionIsClientProtocolService:J\n" +
+	"\x15OptionIsPlayerService\x12\x1f.google.protobuf.ServiceOptions\x18\x80\xb5\x18 \x01(\bR\x15OptionIsPlayerService:g\n" +
+	"\x1dOptionIsClientProtocolService\x12\x1f.google.protobuf.ServiceOptions\x18\x81\xb5\x18 \x01(\bR\x1dOptionIsClientProtocolService:J\n" +
 	"\rOptionTableId\x12\x1f.google.protobuf.MessageOptions\x18\xa0\xc2\x1e \x01(\rR\rOptionTableId\x88\x01\x01:N\n" +
 	"\x0fOptionTableName\x12\x1f.google.protobuf.MessageOptions\x18\xa1\xc2\x1e \x01(\tR\x0fOptionTableName\x88\x01\x01:P\n" +
 	"\x10OptionPrimaryKey\x12\x1f.google.protobuf.MessageOptions\x18\xa2\xc2\x1e \x01(\tR\x10OptionPrimaryKey\x88\x01\x01:P\n" +
